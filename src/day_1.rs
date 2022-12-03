@@ -44,8 +44,6 @@ pub fn part_2(input: String) -> u64 {
 }
 #[cfg(test)]
 mod tests {
-    use crate::input::Challenge;
-
     use super::*;
     use crate::input::*;
 
