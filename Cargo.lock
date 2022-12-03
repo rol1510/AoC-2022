@@ -6,8 +6,15 @@ version = 3
 name = "AoC-2023"
 version = "0.1.0"
 dependencies = [
+ "easy-min-max",
  "itertools",
 ]
+
+[[package]]
+name = "easy-min-max"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "27967b964a353a5a399c906125276acd8d21a278632f8b0a77cb2c1d7e8543d4"
 
 [[package]]
 name = "either"
