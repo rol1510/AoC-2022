@@ -1,4 +1,3 @@
-use std::fmt::format;
 use std::fs::File;
 use std::io::Read;
 use std::path::PathBuf;
@@ -17,7 +16,6 @@ fn challenge_to_extension(challenge: Challenge) -> &'static str {
         Challenge::Sample2 => "sp2.txt",
         Challenge::Challenge1 => "ch1.txt",
         Challenge::Challenge2 => "ch2.txt",
-        _ => panic!("Invalid challenge"),
     }
 }
 
