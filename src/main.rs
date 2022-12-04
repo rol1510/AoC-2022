@@ -3,6 +3,7 @@ use std::ops::Add;
 
 mod day_1;
 mod day_2;
+mod day_3;
 mod input;
 
 const BOX_WIDTH: i32 = 20;
@@ -60,6 +61,7 @@ macro_rules! output_day {
 fn main() {
     output_day!(1, day_1);
     output_day!(2, day_2);
+    output_day!(3, day_3);
 
     println!("{}", get_separator("".to_string(), BOX_WIDTH));
 }
